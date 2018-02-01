@@ -1,5 +1,5 @@
 
-int amount = 800;
+int amount = 1600;
 int x = 0;
 
 public void setup()
@@ -20,11 +20,11 @@ void keyPressed()
  	{
  		if (keyCode == UP)
  		{
- 			amount = amount+3;
+ 			amount = amount+5;
  		}
  	    if (keyCode == DOWN)
  	    {
- 			amount = amount -3;
+ 			amount = amount -5;
  	 	}
  	}
 }
